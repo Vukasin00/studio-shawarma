@@ -1,0 +1,26 @@
+{
+  "id": "/studio-shawarma/kuhinja",
+  "name": "Studio Shawarma · Kuhinja",
+  "short_name": "Kuhinja",
+  "description": "Portal za kuhinju — Studio Shawarma",
+  "lang": "sr",
+  "start_url": "/studio-shawarma/kuhinja",
+  "scope": "/studio-shawarma/kuhinja",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#144F4D",
+  "background_color": "#144F4D",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

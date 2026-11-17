@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="sr" data-tenant="studioshawarma">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Poruči šavarmu, falafel, humus ili salatu iz Studio Shawarme — Kralja Milana 20, Beograd. Dostava ili preuzimanje." />
+    <meta name="theme-color" content="#F9F4DF" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Studio Shawarma" />
+    <link rel="icon" href="/studio-shawarma/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/studio-shawarma/apple-touch-icon.png" />
+    <title>Studio Shawarma · Libanska kuhinja, Kralja Milana 20, Beograd</title>
+    <style>
+      /* Splash painted before the JS bundle arrives (slow networks): brand colour + name, replaced by React. */
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: var(--color-cream-100, #fff); }
+      .splash { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--color-forest-800, #222); }
+      .splash-name { font-family: var(--font-display, sans-serif); font-weight: var(--display-weight, 400); font-size: calc(40px * var(--display-scale, 1)); letter-spacing: var(--display-tracking, 0.02em); text-transform: var(--display-case, none); }
+      .splash-sub { font: 600 12px -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.55; }
+    </style>
+  <style id="tenant-theme">
+ html[data-tenant="studioshawarma"] {
+  --color-cream-50: #FFFDF4;
+  --color-cream-100: #F9F4DF;
+  --color-cream-200: #F1E9C9;
+  --color-cream-300: #E5DBB3;
+  --color-cream-400: #C8BC92;
+  --color-azure-100: #F7ECC2;
+  --color-azure-200: #EFDC8B;
+  --color-azure-300: #E2C54B;
+  --color-azure-400: #D3B232;
+  --color-on-primary: #144F4D;
+  --color-forest-950: #0A2928;
+  --color-forest-900: #0D3736;
+  --color-forest-800: #144F4D;
+  --color-forest-700: #1A5E5B;
+  --color-forest-600: #2F6E6B;
+  --color-forest-500: #4F8481;
+  --color-forest-400: #6BAAAF;
+  --color-flame-100: #FCE6D7;
+  --color-flame-200: #F7BD94;
+  --color-flame-500: #C24812;
+  --color-flame-600: #AA3E0E;
+  --color-flame-700: #8E330B;
+  --color-tomato-500: #AF4354;
+  --color-tomato-100: #F6E0E3;
+  --color-basil-500: #3F8A5A;
+  --color-basil-100: #DDEFE2;
+  --color-ink: #12302F;
+  --color-ink-2: #4A5F5D;
+  --color-ink-3: #81908E;
+  --font-display: "Monigue", "Oswald", "Impact", "Arial Narrow", sans-serif;
+  --display-scale: 0.92;
+  --display-tracking: 0.02em;
+  --display-case: uppercase;
+  --display-weight: 400;
+  --motif: url(/studio-shawarma/motif.webp) center top / 120px auto repeat, linear-gradient(#F9F4DF, #F9F4DF);
+  --glass-bg: rgba(249, 244, 223, 0.82);
+ }
+/* self-hosted display font: Monigue, the heading face of studioshawarma.com (their Webflow site self-hosts the same file);
+   one file covers latin + latin-ext (Č Ć Š Ž Đ checked). /studio-shawarma/ is filled in by vite.config.ts */
+@font-face {
+  font-family: 'Monigue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/studio-shawarma/fonts/monigue.woff2) format('woff2');
+}
+</style>
+    <link rel="preload" as="image" href="/studio-shawarma/pizzas/zaatar-pomfrit.webp" />
+    <link rel="preload" as="image" href="/studio-shawarma/logo.png" />
+    <script type="module" crossorigin src="/studio-shawarma/assets/main-D3KYoEtT.js"></script>
+    <link rel="stylesheet" crossorigin href="/studio-shawarma/assets/main-8aLNoPGg.css">
+  <link rel="manifest" href="/studio-shawarma/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/studio-shawarma/registerSW.js"></script></head>
+  <body>
+    <div id="root"><div class="splash"><span class="splash-name">Studio Shawarma</span><span class="splash-sub">Učitavanje</span></div></div>
+  </body>
+</html>

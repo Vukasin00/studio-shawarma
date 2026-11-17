@@ -1,0 +1,9 @@
+/* self-hosted display font: Monigue, the heading face of studioshawarma.com (their Webflow site self-hosts the same file);
+   one file covers latin + latin-ext (Č Ć Š Ž Đ checked). %BASE is filled in by vite.config.ts */
+@font-face {
+  font-family: 'Monigue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(%BASEfonts/monigue.woff2) format('woff2');
+}

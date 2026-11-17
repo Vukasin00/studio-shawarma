@@ -1,0 +1,47 @@
+{
+  "info": {
+    "id": "studioshawarma",
+    "guideKey": "ss-guide-done",
+    "storageKey": "studio-shawarma",
+    "fulfillments": [
+      "delivery",
+      "pickup"
+    ],
+    "sizes": 3,
+    "name": "Studio Shawarma",
+    "address": "Kralja Milana 20, Beograd",
+    "phone": "069 150 0870",
+    "hours": "Ned–čet 09:00 – 23:00 · pet–sub 09:00 – 24:00",
+    "instagram": "https://www.instagram.com/studioshawarma/",
+    "logo": "logo.png",
+    "deliveryFee": 250,
+    "cardPayment": [],
+    "locations": 0,
+    "categories": 9,
+    "menu": "static",
+    "menuItems": 61,
+    "closedToday": false,
+    "soldOutToday": [],
+    "orders": "local",
+    "tenantPath": "studioshawarma",
+    "emulator": false
+  },
+  "style": {
+    "bg": "#F9F4DF",
+    "card": "#FFFDF4",
+    "inset": "#F1E9C9",
+    "line": "#E5DBB3",
+    "primary": "#E2C54B",
+    "onPrimary": "#144F4D",
+    "dark": "#0D3736",
+    "dark2": "#144F4D",
+    "cta": "#C24812",
+    "ink": "#12302F",
+    "ink2": "#4A5F5D",
+    "font": "\"Monigue\", \"Oswald\", \"Impact\", \"Arial Narrow\", sans-serif",
+    "tracking": "0.02em",
+    "case": "uppercase",
+    "weight": "400",
+    "scale": "0.92"
+  }
+}
